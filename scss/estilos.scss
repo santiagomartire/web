@@ -1,0 +1,91 @@
+    @import "base/tipografia";
+    @import "base/colores";
+    @import "sass/variables";
+    @import "components/1header";
+    @import "components/2inicio";
+    @import "components/3comofunciona";
+    @import "components/4beneficios";
+    @import "components/5sustentabilidad";
+    @import "components/6contacto";
+    @import "components/7formulario";
+
+    /*GENERALES*/
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+      }
+      
+
+    body{
+        background-color: $bg-color-principal;
+    }
+
+    .container-whapp{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            width: 5rem;
+            height: 5rem;
+            bottom: 30px;
+            right: 10px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 5rem;
+            z-index: 5;
+
+            a{
+                text-decoration: none;
+                font-size: 3rem;
+                color: white;
+            }
+    }
+    .button-home{
+            font-weight: 600;
+            font-size: 2.2rem;
+            padding: 0 1em;
+            line-height: 2em;
+            text-align: center;
+            display: flex;
+            background-color: $bg-color-secundario;
+            width: 12rem;
+            color: $textboton-color;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+            border-radius:1rem;
+            margin-top: 1.4rem;
+            box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.25);
+            border-radius: 1rem;
+            border-width: 0px;
+            border-color: $text-color; 
+                &:hover{
+                    color: $textboton-color;
+                    background-color: $hoverboton;
+                        }
+                }
+
+    .margenSecciones {
+      margin-top: $margintop;
+      margin-bottom: $marginbottom;
+    }
+
+    .tamañoIconos {
+        width: $iconos-width;
+        height: $iconos-height;
+    }
+
+    .margp {
+        padding-left: $margin-left;
+        padding-right: $margin-right;
+    }
+
+
+
+
+

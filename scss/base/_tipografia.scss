@@ -1,0 +1,91 @@
+  $tcentrado: center;
+  $enable-responsive-font-sizes: true;
+  $marginbottom: 1rem;
+  $margintop: 1rem;
+  $fontsizetexto: 1.6rem;
+
+  html {
+    font-size: 62.5%;
+  }
+
+  /*TIPOGRAFIAS*/
+
+  @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #09101d;
+  }
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 1.6rem;
+    }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.19;
+    text-align: $tcentrado;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal; 
+    margin-top: 0px;
+    margin-bottom: 1.6rem;
+    
+  }
+
+  h2 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: $tcentrado;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-top: 0px; 
+    margin-bottom: 1.6rem;
+  }
+  h3 {
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 1,25;
+    text-align: $tcentrado;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    padding-top: 1rem;
+    margin-top: 0px; 
+    margin-bottom: 1.6rem;
+  }
+  h4 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1,25;
+    text-align: $tcentrado;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    padding-top: 1rem;
+    margin-top: 0px; 
+    margin-bottom: 1.6rem;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1,25;
+    text-align: $tcentrado;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    padding-top: 1rem;
+    margin-top: 0px; 
+    margin-bottom: 1.6rem;
+  }
+  p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1,22;
+    margin-top: 0px;
+  }

@@ -1,0 +1,60 @@
+/* CONTACTO */
+
+.footerStyle {
+  display: flex;
+  justify-content: space-evenly;
+  p{
+        font-size: $fontsizetexto; 
+        margin-bottom: 2rem;
+    }
+    
+  a{
+        text-decoration: none;
+        color: $text-color;
+    }
+  .copyright{
+        font-size: 1.2rem;
+        margin-top: 0.8rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+.rrss{
+    i{ font-size: 3.5rem;
+        margin-bottom: 1rem;
+}
+}
+
+/* HEADER CONTACTO en dektop--> 
+<footer class="footerStyle">
+     <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12">
+        <h2 class="text-left" id="contacto">Contacto</h2>
+        <p class="text-left">Fundación Reciduca</p>
+        <p class="text-left">(54-11) 4723-6564</p>
+        <p class="text-left">ambiente@fundacionreciduca.org.ar</p>
+        <p class="text-left">Av. Bernabé Márquez 700 (B1642GDT)</p>
+        <p class="text-left">San Isidro</p>
+        </div>
+        <div class="rrss justify-content-left">   
+            <h3 class="text-center">Redes</h3>
+            <a href="https://www.facebook.com/reciduca/" target="_blank">
+          <i class="fab fa-facebook col-12 text-center"></i>
+        </a>
+
+        <a href="https://www.instagram.com/fundacionreciduca/?hl=es-la" target="_blank">
+          <i class="fab fa-instagram col-12 text-center"></i>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCjN_O0BsjteWdifunc7mYqA" target="_blank">
+          <i class="fab fa-youtube col-12 text-center"></i>
+        </a>
+        </div>
+        <p class="col-12 text-center copyright">&copy; 2021. Fundación Reciduca. Un mundo sustentable es un mundo inclusivo.</p>   
+      </div>
+    </div>
+</footer>
+</div>
+*/

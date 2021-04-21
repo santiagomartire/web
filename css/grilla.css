@@ -1,0 +1,43 @@
+/*
+#grilla {
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  grid-template-row: minmax(100px, auto); 
+  grid-template-areas: 
+  "header header header"
+  "inicio inicio inicio"
+  "cFunciona cFunciona cFunciona"
+  "sust sust sust"
+  "conocenos conocenos conocenos"
+  "footer footer footer";
+  grid-row-gap: 20px;
+  grid-column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#inicioContainer {
+	grid-area: inicio;
+	padding-top: 150px;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.cFuncionaContainer {
+	grid-area: cFunciona
+}
+
+.sustContainer {
+	grid-area: sust
+}
+
+.conocenosContainer {
+	grid-area: conocenos
+}
+
+#contactoContainer {
+	grid-area: footer
+}
+*/
