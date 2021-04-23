@@ -1,9 +1,39 @@
+  @import '../base/colores';
   /* INICIO */
 
   .margenInicio {
     margin-top: $iniciomargen; 
   }
 .imagenEscala {
-  max-height: 6rem; 
-  max-width: 6rem;
+  max-width: 90%;
+  max-height: auto; 
+  
+}
+
+.logoReci {
+  height: 12rem;
+  width: auto;
+  margin-bottom: 1.4rem;
+}
+
+h2{
+  a{
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: $tcentrado;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-top: 0px; 
+    margin-bottom: 1.6rem;
+    text-decoration: none;
+    list-style: none;
+    color: $bg-color-secundario; 
+    &:hover {
+      list-style: none;
+      text-decoration: none;
+      color: $hoverboton;
+      }
+    }
 }
