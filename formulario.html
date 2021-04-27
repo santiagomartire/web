@@ -63,10 +63,10 @@
   <!--FORMULARIO-->
   <hr>
   <p class="text-danger small pb-0 mb-0">*Todos los campos son obligatorios</p>
-  <form class="styleFormulario fondoGris needs-validation" novalidate action="mailto:ambiente@fundacionreciduca.org.ar" method="post" enctype="text/plain" id="formularioSumate">
+  <form class="styleFormulario fondoGris needs-validation" mame="formulariosumate" novalidate action="https://formspree.io/f/mpzkqarq" method="POST" id="formulariosumate">
     <div class="form-row mt-2">
-      <label for="seleccionEstablecimiento">Tipo de establecimiento*</label>
-          <select class="form-control rounded-lg col-12" id="seleccionEstablecimiento">
+      <label for="establishment">Tipo de establecimiento <span>*</span></label>
+          <select class="form-control rounded-lg col-12" id="establishment" mame="establishment">
             <option>Restaurante</option>
             <option>Restaurante de hotel</option>
             <option>Comida para llevar</option>
@@ -74,80 +74,80 @@
             <option>Bar/Cafeteria</option>
           </select>
       <div class="form-group col-12 col-md-6 mt-4">
-        <label for="inputNombreDeFantasia">Nombre de Fantasía*</label>
-        <input type="text" class="form-control rounded-lg" id="inputNombreDeFantasia" required>
+        <label for="inputNombreDeFantasia">Nombre de Fantasía <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="inputNombreDeFantasia" name="inputNombreDeFantasia" required>
          <div class="invalid-feedback">
-          Incompleto, por favor ingresa los datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6 mt-4">
-        <label for="inputRazonSocial">Razón Social*</label>
-        <input type="text" class="form-control rounded-lg" id="inputRazonSocial" required>
+        <label for="inputRazonSocial">Razón Social <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="inputRazonSocial" mame="inputRazonSocial" required>
         <div class="invalid-feedback">
-          Incompleto, por favor ingresa los datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputCuit">CUIT*</label>
-        <input type="text" class="form-control rounded-lg" id="inputCuit" required>
+        <label for="inputCuit">CUIT <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="inputCuit" mame="inputCuit" required>
         <div class="invalid-feedback">
-          Incompleto, por favor ingresa tus datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputDireccion">Dirección*</label>
-        <input type="text" class="form-control rounded-lg" id="inputDireccion" required>
+        <label for="inputDireccion">Dirección <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="inputDireccion" mame="inputDireccion" required>
         <div class="invalid-feedback">
-          Incompleto, por favor ingresa tus datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputCidudad">Ciudad*</label>
-        <input type="text" class="form-control rounded-lg" id="inputCidudad" required>
+        <label for="inputCidudad">Ciudad <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="inputCidudad" mame="inputCidudad" required>
         <div class="invalid-feedback">
-          Incompleto, por favor ingresa tus datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputProvincia">Provincia*</label>
-        <input type="text" class="form-control rounded-lg" id="inputProvincia" required>
+        <label for="inputProvincia">Provincia <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="inputProvincia" mame="inputProvincia" required>
         <div class="invalid-feedback">
-          Incompleto, por favor ingresa tus datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputEmail">Email*</label>
-        <input type="text" class="form-control rounded-lg" id="inputEmail" required>
+        <label for="inputEmail">Email <span>*</span></label>
+        <input type="email" class="form-control rounded-lg" id="inputEmail" mame="inputEmail" required>
         <div class="invalid-feedback">
-          Incompleto, por favor ingresa tus datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputTelefonoCelular">Teléfono o Celular*</label>
-        <input type="text" class="form-control rounded-lg" id="inputTelefonoCelular" required>
+        <label for="inputTelefonoCelular">Teléfono o Celular <span>*</span></label>
+        <input type="tel" class="form-control rounded-lg" id="inputTelefonoCelular" mame="inputTelefonoCelular" required>
         <div class="invalid-feedback">
-          Incompleto, por favor ingresa tus datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputNombreContacto">Nombre de Contacto*</label>
-        <input type="text" class="form-control rounded-lg" id="inputNombreContacto" required>
+        <label for="inputNombreContacto">Nombre de Contacto <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="inputNombreContacto" mame="inputNombreContacto" required>
         <div class="invalid-feedback">
-          Incompleto, por favor ingresa tus datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputFunciónCargo">Función/Cargo*</label>
-        <input type="text" class="form-control rounded-lg" id="inputFunciónCargo" required>
+        <label for="inputFunciónCargo">Función/Cargo <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="inputFunciónCargo" mame="inputFunciónCargo" required>
         <div class="invalid-feedback">
-          Incompleto, por favor ingresa tus datos solicitados.
+          Ingresa los datos solicitados.
         </div>
       </div>
     </div>
 
     <!-- Button to Open the Modal -->
   <div>
-      <button class="btn button-home align-items-center d-block" type="submit" data-toggle="modal" data-target="#modalEnviar">Enviar</button>
+      <button id="sendForm"class="btn button-home align-items-center d-block" type="submit" data-target="#modalEnviar">Enviar</button>
   <!--El Modal-->
   <div class="modal" id="modalEnviar" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
@@ -172,7 +172,7 @@
   </form>
   </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <svg class="margNeg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#ebedee" fill-opacity="1" d="M0,192L120,192C240,192,480,192,720,208C960,224,1200,256,1320,272L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
       </path>
     </svg>
@@ -185,10 +185,10 @@
   <footer class="footerStyle">
        <div class="container">
         <div class="row d-flex justify-content-center">
-          <div class="col-12">
+          <div class="col-12 text-center centradoPadre">
           <h2 class="text-center mt-5">Contacto</h2>
           <p class="text-center">ambiente@fundacionreciduca.org.ar</p>
-          <a class="centradoA" href="https://www.fundacionreciduca.org.ar/" target="_blank">www.fundacionreciduca.org.ar</a>
+          <a class="text-center centradoA col-auto" href="https://www.fundacionreciduca.org.ar/" target="_blank">www.fundacionreciduca.org.ar</a>
           </div>
           <div class="rrss row d-flex justify-content-center">
             <div class="col-12">   
@@ -229,6 +229,28 @@
         $(".collapse").removeClass("show");
       });
     });
+  </script>
+  <script>
+    $(document).ready(
+      function () {
+        $("input").change(function () {
+          if ($("#inputNombreDeFantasia").val().length != 0 &&
+            $("#inputRazonSocial").val().length != 0 &&
+            $("#inputCuit").val().length != 0 &&
+            $("#inputDireccion").val().length != 0 &&
+            $("#inputCidudad").val().length != 0 &&
+            $("#inputProvincia").val().length != 0 &&
+            $("#inputEmail").val().length != 0 &&
+            $("#inputTelefonoCelular").val().length != 0 &&
+            $("#inputNombreContacto").val().length != 0 &&
+            $("#inputFunciónCargo").val().length != 0) {
+            $("#sendForm").attr('data-toggle', 'modal');
+          } else {
+            $("#sendForm").removeAttr('data-toggle', 'modal');
+          }
+        });
+      }
+    );
   </script>
   </body>
   </html>

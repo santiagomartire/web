@@ -5,13 +5,23 @@
 		background-color: $bg-color-gris;
 		}
 	.margentex{
-		padding-left: 4rem;
-		padding-right: 4rem;
-		margin-right: 4rem;
-		margin-left: 4rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-right: 2rem;
+		margin-left: 2rem;
 		margin-top: 1rem;
-		margin-bottom: 2rem;
-	}
+		margin-bottom: 1rem;
+    	text-align: justify;
+  		text-justify: inter-word;	}
 	.rotate {
 	  	transform: $rotated;
 		}
+
+	.espaciado{
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+	.espaciado2{
+		margin-top: 5rem;
+		margin-bottom: 1rem;
+	}
