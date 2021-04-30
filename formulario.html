@@ -63,89 +63,81 @@
   <!--FORMULARIO-->
   <hr>
   <p class="text-danger small pb-0 mb-0">*Todos los campos son obligatorios</p>
-  <form class="styleFormulario fondoGris needs-validation" mame="formulariosumate" novalidate action="https://formspree.io/f/mpzkqarq" method="POST" id="formulariosumate">
-    <div class="form-row mt-2">
-      <label for="establishment">Tipo de establecimiento <span>*</span></label>
-          <select class="form-control rounded-lg col-12" id="establishment" mame="establishment">
-            <option>Restaurante</option>
-            <option>Restaurante de hotel</option>
-            <option>Comida para llevar</option>
-            <option>Rotiseria</option>
-            <option>Bar/Cafeteria</option>
-          </select>
+  <form class="styleFormulario fondoGris needs-validation" mame="formulariosumate" novalidate action="email.php" method="POST" id="formulariosumate">
+    <div class="form-row">
       <div class="form-group col-12 col-md-6 mt-4">
-        <label for="inputNombreDeFantasia">Nombre de Fantasía <span>*</span></label>
-        <input type="text" class="form-control rounded-lg" id="inputNombreDeFantasia" name="inputNombreDeFantasia" required>
+        <label for="input_nombrefantasia">Nombre de Fantasía <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="input_nombrefantasia" name="input_nombrefantasia" required>
          <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6 mt-4">
-        <label for="inputRazonSocial">Razón Social <span>*</span></label>
-        <input type="text" class="form-control rounded-lg" id="inputRazonSocial" mame="inputRazonSocial" required>
+        <label for="input_razonsocial">Razón Social <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="input_razonsocial" mame="input_razonsocial" required>
         <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputCuit">CUIT <span>*</span></label>
-        <input type="text" class="form-control rounded-lg" id="inputCuit" mame="inputCuit" required>
+        <label for="input_cuit">CUIT <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="input_cuit" mame="input_cuit" required>
         <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputDireccion">Dirección <span>*</span></label>
-        <input type="text" class="form-control rounded-lg" id="inputDireccion" mame="inputDireccion" required>
+        <label for="input_direccion">Dirección <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="input_direccion" mame="input_direccion" required>
         <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputCidudad">Ciudad <span>*</span></label>
-        <input type="text" class="form-control rounded-lg" id="inputCidudad" mame="inputCidudad" required>
+        <label for="input_ciudad">Ciudad <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="input_ciudad" mame="input_ciudad" required>
         <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputProvincia">Provincia <span>*</span></label>
-        <input type="text" class="form-control rounded-lg" id="inputProvincia" mame="inputProvincia" required>
+        <label for="input_provinica">Provincia <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="input_provinica" mame="input_provinica" required>
         <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputEmail">Email <span>*</span></label>
-        <input type="email" class="form-control rounded-lg" id="inputEmail" mame="inputEmail" required>
+        <label for="input_email">Email <span>*</span></label>
+        <input type="email" class="form-control rounded-lg" id="input_email" mame="input_email" required>
         <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputTelefonoCelular">Teléfono o Celular <span>*</span></label>
-        <input type="tel" class="form-control rounded-lg" id="inputTelefonoCelular" mame="inputTelefonoCelular" required>
+        <label for="input_celular">Teléfono o Celular <span>*</span></label>
+        <input type="tel" class="form-control rounded-lg" id="input_celular" mame="input_celular" required>
         <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputNombreContacto">Nombre de Contacto <span>*</span></label>
-        <input type="text" class="form-control rounded-lg" id="inputNombreContacto" mame="inputNombreContacto" required>
+        <label for="input_nombrecontacto">Nombre de Contacto <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="input_nombrecontacto" mame="input_nombrecontacto" required>
         <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
       <div class="form-group col-12 col-md-6">
-        <label for="inputFunciónCargo">Función/Cargo <span>*</span></label>
-        <input type="text" class="form-control rounded-lg" id="inputFunciónCargo" mame="inputFunciónCargo" required>
+        <label for="input_cargo">Función/Cargo <span>*</span></label>
+        <input type="text" class="form-control rounded-lg" id="input_cargo" mame="input_cargo" required>
         <div class="invalid-feedback">
           Ingresa los datos solicitados.
         </div>
       </div>
     </div>
 
-    <!-- Button to Open the Modal -->
+    <!-- Button -->
   <div>
       <button id="sendForm"class="btn button-home align-items-center d-block" type="submit" data-target="#modalEnviar">Enviar</button>
   <!--El Modal-->
@@ -172,7 +164,7 @@
   </form>
   </div>
   </div>
-  <svg class="margNeg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <svg class="fueralinea" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#ebedee" fill-opacity="1" d="M0,192L120,192C240,192,480,192,720,208C960,224,1200,256,1320,272L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
       </path>
     </svg>

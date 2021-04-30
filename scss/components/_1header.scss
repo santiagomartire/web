@@ -5,11 +5,54 @@
 	  width: 100%;
 	  background-color: $bg-color-principal;
 	  .logo {
-	 width: 7rem;
-	 height: 7rem;
+	 width: 5rem;
+	 height: 5rem;
 
 	}
 	}
 
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 576px) and (max-width: 767.98px){
+        nav {
+        	.logo {
+            width: 5.5rem;
+	 		height: 5.5rem;
+        }
+    }
+}
 
 
+// Medium devices (tablets, less than 992px)
+@media (min-width: 768px) and (max-width: 991.98px){
+        nav {
+        	.logo {
+            width: 6rem;
+	 		height: 6rem;
+        }
+       
+    }
+}
+
+ // Large devices (desktops, less than 1200px)
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    	nav {
+        	.logo {
+            width: 6.5rem;
+	 		height: 6.5rem;
+	 		margin-left: 1.5rem;
+        }
+       
+    }
+}
+
+   // X-Large devices (large desktops, less than 1400px)
+   @media (min-width: 1199.99px){
+    	nav {
+        	.logo {
+            width: 6.5rem;
+	 		height: 6.5rem;
+	 		margin-left: 3rem;
+        }
+       
+    }
+}
