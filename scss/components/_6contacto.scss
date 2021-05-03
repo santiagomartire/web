@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   p{
         font-size: $fontsizetexto; 
-        margin-bottom: 2rem;
+        margin-bottom: 1.2rem;
     }
     
   a{
@@ -17,9 +17,15 @@
         color: $text-color;
         margin-bottom: 2rem;
     }
+
+    h2{
+      margin-top: 6rem;
+      margin-bottom: 2rem;
+    }
   .copyright{
         font-size: 1.2rem;
         margin-top: 0.8rem;
+        margin-bottom:3rem;
         padding-left: 3rem;
         padding-right: 3rem;
     }
