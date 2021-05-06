@@ -8,6 +8,7 @@
     @import "components/5sustentabilidad";
     @import "components/6contacto";
     @import "components/7formulario";
+    @import "components/8gracias";
 
     /*GENERALES*/
 
@@ -79,7 +80,10 @@
         width: $iconos-width;
         height: $iconos-height;
     }
-
+    .espax{
+        margin-bottom: 6rem;
+    }
+    
     .margp {
         padding-left: $margin-left;
         padding-right: $margin-right;

@@ -4,6 +4,23 @@
 	.fondoGris {
 		background-color: $bg-color-gris;
 		}
+	p{
+		a{
+    font-weight: 400;
+    line-height: 1;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    list-style: none;
+    color: $bg-color-secundario; 
+    &:hover {
+      list-style: none;
+      text-decoration: none;
+      color: $hoverboton;
+      }
+    }
+	}
 	.margentex{
 		padding-left: 2rem;
 		padding-right: 2rem;

@@ -139,7 +139,7 @@
 
     <!-- Button -->
   <div>
-      <button id="sendForm"class="btn button-home align-items-center d-block" type="submit" data-target="#modalEnviar">Enviar</button>
+      <button action="gracias.html" class="btn button-home align-items-center d-block" target="_blank" type="submit">Enviar</button>
   </div>
   </form>
   </div>
@@ -201,28 +201,6 @@
         $(".collapse").removeClass("show");
       });
     });
-  </script>
-  <script>
-    $(document).ready(
-      function () {
-        $("input").change(function () {
-          if ($("#inputNombreDeFantasia").val().length != 0 &&
-            $("#inputRazonSocial").val().length != 0 &&
-            $("#inputCuit").val().length != 0 &&
-            $("#inputDireccion").val().length != 0 &&
-            $("#inputCidudad").val().length != 0 &&
-            $("#inputProvincia").val().length != 0 &&
-            $("#inputEmail").val().length != 0 &&
-            $("#inputTelefonoCelular").val().length != 0 &&
-            $("#inputNombreContacto").val().length != 0 &&
-            $("#inputFunciónCargo").val().length != 0) {
-            $("#sendForm").attr('data-toggle', 'modal');
-          } else {
-            $("#sendForm").removeAttr('data-toggle', 'modal');
-          }
-        });
-      }
-    );
   </script>
   </body>
   </html>
