@@ -62,13 +62,13 @@
 
   <!--FORMULARIO-->
   <hr>
-  <p class="text-danger small pb-0 mb-0">*Todos los campos son obligatorios</p>
+  <p class="text-danger medium pb-0 mb-0">*Todos los campos son obligatorios</p>
   <form class="styleFormulario fondoGris needs-validation" mame="formulariosumate" novalidate action="email.php" method="POST" id="formulariosumate">
-    <div class="form-row">
+    <div class="form-row ml-0 mr-0">
       <div class="form-group col-12 col-md-6 mt-4">
         <label for="input_nombrefantasia">Nombre de Fantasía <span>*</span></label>
         <input type="text" class="form-control rounded-lg" id="input_nombrefantasia" name="input_nombrefantasia" required>
-         <div class="invalid-feedback">
+         <div class="invalid-feedback medium">
           Ingresa los datos solicitados.
         </div>
       </div>
@@ -159,7 +159,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-12 text-center centradoPadre">
           <h2 class="text-center mt-5">Contacto</h2>
-          <p class="text-center">ambiente@fundacionreciduca.org.ar</p>
+          <p class="text-center"><a href="mailto:ambiente@fundacionreciduca.org.ar">ambiente@fundacionreciduca.org.ar</a></p>
           <a class="text-center centradoA col-auto" href="https://www.fundacionreciduca.org.ar/" target="_blank">www.fundacionreciduca.org.ar</a>
           </div>
           <div class="rrss row d-flex justify-content-center">
@@ -169,7 +169,7 @@
               </a>
             </div>
           </div>
-          <p class="col-12 text-center copyright">&copy; 2021. Fundación Reciduca. Un mundo sustentable es un mundo inclusivo.</p>   
+          <p class="col-12 text-center copyright"><span id="bold">FundaciónReciduca&copy;Copyright 2021.</span>Todos los derechos reservados.</p>    
         </div>
       </div>
   </footer>

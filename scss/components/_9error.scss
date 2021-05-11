@@ -1,53 +1,33 @@
- @import '../base/colores';
-  /* INICIO */
-
-  .margenInicio {
+.margenInicio {
     margin-top: $iniciomargen; 
   }
-.imagenEscala {
-  max-width: 90%;
-  max-height: auto; 
-  
-}
 
 .logoReci {
   height: 11rem;
   width: auto;
   margin-bottom: 1.4rem;
 }
-
-h2{
-  a{
+.error{
     font-size: 2.8rem;
     font-weight: 400;
     line-height: 1;
-    text-align: $tcentrado;
     font-style: normal;
     font-stretch: normal;
     letter-spacing: normal;
-    margin-top: 0px; 
-    margin-bottom: 1.6rem;
-    text-decoration: none;
-    list-style: none;
-    color: $bg-color-secundario; 
-    &:hover {
-      list-style: none;
-      text-decoration: none;
-      color: $hoverboton;
-      }
+    margin-top: 15px; 
+    margin-bottom: 1rem;
+    color: red; 
     }
-}
+  .contactarT{
+    margin-top: 0px; 
+    margin-bottom: 1rem;
+  }
 // Small devices (landscape phones, less than 768px)
 @media (min-width: 576px) and (max-width: 767.98px){
         .logoReci {
           height: 12rem;
           width: auto;
         }
-        .imagenEscala {
-          max-width: 85%;
-          max-height: auto; 
-  
-}
     }
 
 
@@ -57,13 +37,6 @@ h2{
           height: 12rem;
           width: auto;
         }
-        .imagenEscala {
-          max-width: 75%;
-          max-height: auto;   
-}
-        h1{
-          font-size: 4.5rem;
-        }
     }
  // Large devices (desktops, less than 1200px)
  @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -71,14 +44,6 @@ h2{
           height: 13rem;
           width: auto;
         }
-       .imagenEscala {
-          max-width: 65%;
-          max-height: auto;   
-        }
-        h1{
-          font-size: 4.5rem;
-        }
-
     }
 
    // X-Large devices (large desktops, less than 1400px)
@@ -87,11 +52,58 @@ h2{
           height: 14rem;
           width: auto;
         }
-       .imagenEscala {
-          max-width: 55%;
-          max-height: auto;  
+    }.margenInicio {
+    margin-top: $iniciomargen; 
+  }
+
+.logoReci {
+  height: 11rem;
+  width: auto;
+  margin-bottom: 1.4rem;
 }
-        h1{
-          font-size: 5rem;
+.error{
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 1;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-top: 15px; 
+    margin-bottom: 1rem;
+    color: red; 
+    }
+  .contactarT{
+    margin-top: 0px; 
+    margin-bottom: 1rem;
+  }
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 576px) and (max-width: 767.98px){
+        .logoReci {
+          height: 12rem;
+          width: auto;
+        }
+    }
+
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 768px) and (max-width: 991.98px){
+        .logoReci {
+          height: 12rem;
+          width: auto;
+        }
+    }
+ // Large devices (desktops, less than 1200px)
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+        .logoReci {
+          height: 13rem;
+          width: auto;
+        }
+    }
+
+   // X-Large devices (large desktops, less than 1400px)
+   @media (min-width: 1199.99px){
+        .logoReci {
+          height: 14rem;
+          width: auto;
         }
     }
