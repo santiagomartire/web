@@ -19,8 +19,15 @@
       text-decoration: none;
       color: $hoverboton;
       }
-    }
 	}
+	#colorEducacion{
+      	color: #17b4e2;
+      	&:hover {
+      list-style: none;
+      text-decoration: none;
+      color: $hoverboton;
+	}
+}
 	.margentex{
 		padding-left: 2rem;
 		padding-right: 2rem;
