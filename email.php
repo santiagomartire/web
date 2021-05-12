@@ -12,8 +12,8 @@ try {
     $mail->isSMTP();
     $mail->Host = 'mail.reciclandoaceiteducamos.org.ar';  // Host de conexión SMTP
     $mail->SMTPAuth = true;
-    $mail->Username = 'reciduca@reciclandoaceiteducamos.org.ar';                 // Usuario SMTP
-    $mail->Password = 'reci2020s!$';                           // Password SMTP
+    $mail->Username = 'noreply@reciclandoaceiteducamos.org.ar';                 // Usuario SMTP
+    $mail->Password = 'LlgPgq@zK]s_';                           // Password SMTP
     $mail->SMTPSecure = 'tls';                            // Activar seguridad TLS
     $mail->Port = 465;                                    // Puerto SMTP
 
@@ -21,7 +21,7 @@ try {
     #$mail->SMTPSecure = false;				// Descomentar si se requiere desactivar cifrado (se suele usar en conjunto con la siguiente línea)
     #$mail->SMTPAutoTLS = false;			// Descomentar si se requiere desactivar completamente TLS (sin cifrado)
  
-    $mail->setFrom('reciduca@reciclandoaceiteducamos.org.ar');		// Mail del remitente
+    $mail->setFrom('noreply@reciclandoaceiteducamos.org.ar');		// Mail del remitente
     $mail->addAddress('ambiente@fundacionreciduca.org.ar');     // Mail del destinatario
  
     $mail->isHTML(true);
