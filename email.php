@@ -10,7 +10,7 @@ $mail = new PHPMailer(true);
 try {
     $mail->SMTPDebug = 2;  // Sacar esta línea para no mostrar salida debug
     $mail->isSMTP();
-    $mail->Host = 'reciduca@reciclandoaceiteducamos.org.ar';  // Host de conexión SMTP
+    $mail->Host = '198.178.120.8';  // Host de conexión SMTP
     $mail->SMTPAuth = true;
     $mail->Username = 'reciclan';                 // Usuario SMTP
     $mail->Password = 'vY5cnREbP44-+5';                           // Password SMTP
