@@ -25,7 +25,7 @@ try {
     $mail->addAddress('ambiente@fundacionreciduca.org.ar');     // Mail del destinatario
  
     $mail->isHTML(true);
-    $mail->Subject = 'Alta Cliente de: '.$_POST['establishment'];  // Asunto del mensaje
+    $mail->Subject = 'Alta Cliente de: '.$_POST['input_nombrefantasia'];  // Asunto del mensaje
     $mail->Body    = 'Nfantasia: '.$_POST['input_nombrefantasia'].'<br>Rsocial: '.$_POST['input_razonsocial'].'<br>Cuit: '.$_POST['input_cuit'].'<br>Direccion: '.$_POST['input_direccion'].'<br>Ciudad: '.$_POST['input_ciudad'].'<br>Provincia: '.$_POST['input_provinica'].'<br>Email: '.$_POST['input_email'].'<br>Celular: '.$_POST['input_celular'].'<br>Ncontacto: '.$_POST['input_nombrecontacto'].'<br>Cargo: '.$_POST['input_cargo'];    // Contenido del mensaje (acepta HTML)
  
     $mail->send();
