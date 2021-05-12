@@ -10,12 +10,12 @@ $mail = new PHPMailer(true);
 try {
     $mail->SMTPDebug = 2;  // Sacar esta línea para no mostrar salida debug
     $mail->isSMTP();
-    $mail->Host = '198.178.120.8';  // Host de conexión SMTP
+    $mail->Host = 'mail.reciclandoaceiteducamos.org.ar';  // Host de conexión SMTP
     $mail->SMTPAuth = true;
-    $mail->Username = 'reciclan';                 // Usuario SMTP
-    $mail->Password = 'vY5cnREbP44-+5';                           // Password SMTP
+    $mail->Username = 'reciduca@reciclandoaceiteducamos.org.ar';                 // Usuario SMTP
+    $mail->Password = 'reci2020s!$';                           // Password SMTP
     $mail->SMTPSecure = 'tls';                            // Activar seguridad TLS
-    $mail->Port = 587;                                    // Puerto SMTP
+    $mail->Port = 465;                                    // Puerto SMTP
 
     #$mail->SMTPOptions = ['ssl'=> ['allow_self_signed' => true]];  // Descomentar si el servidor SMTP tiene un certificado autofirmado
     #$mail->SMTPSecure = false;				// Descomentar si se requiere desactivar cifrado (se suele usar en conjunto con la siguiente línea)
