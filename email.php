@@ -21,7 +21,7 @@ try {
     #$mail->SMTPSecure = false;				// Descomentar si se requiere desactivar cifrado (se suele usar en conjunto con la siguiente línea)
     #$mail->SMTPAutoTLS = false;			// Descomentar si se requiere desactivar completamente TLS (sin cifrado)
  
-    $mail->setFrom('reciclan');		// Mail del remitente
+    $mail->setFrom('reciduca@reciclandoaceiteducamos.org.ar');		// Mail del remitente
     $mail->addAddress('ambiente@fundacionreciduca.org.ar');     // Mail del destinatario
  
     $mail->isHTML(true);
