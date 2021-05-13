@@ -17,17 +17,17 @@ $mail = new PHPMailer(true);
     $mail->Port = 587;                                    // Puerto SMTP
 
     #$mail->SMTPOptions = ['ssl'=> ['allow_self_signed' => true]];  // Descomentar si el servidor SMTP tiene un certificado autofirmado
-    #$mail->SMTPSecure = false;				// Descomentar si se requiere desactivar cifrado (se suele usar en conjunto con la siguiente línea)
-    #$mail->SMTPAutoTLS = false;			// Descomentar si se requiere desactivar completamente TLS (sin cifrado)
+    #$mail->SMTPSecure = false;             // Descomentar si se requiere desactivar cifrado (se suele usar en conjunto con la siguiente línea)
+    #$mail->SMTPAutoTLS = false;            // Descomentar si se requiere desactivar completamente TLS (sin cifrado)
  
-    $mail->setFrom('noreply@reciclandoaceiteducamos.org.ar');		// Mail del remitente
+    $mail->setFrom('noreply@reciclandoaceiteducamos.org.ar');       // Mail del remitente
     $mail->addAddress('ambiente@fundacionreciduca.org.ar');     // Mail del destinatario
- 
-    $mail->isHTML(true);
+    
+        $mail->isHTML(true);
     $mail->Subject = 'Here is the subject';
     $mail->Body = 'This is the HTML message body <b>in bold!</b>';
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
+    
     if(!$mail->send()) {
     echo 'El mensaje no pudo ser enviado.';
     echo 'Error del Mailer: ' . $mail->ErrorInfo;
