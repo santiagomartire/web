@@ -2,6 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+require 'vendor/autoload.php';
 require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
@@ -13,8 +14,8 @@ $mail = new PHPMailer(true);
     $mail->SMTPAuth = true;
     $mail->Username = 'noreply@reciclandoaceiteducamos.org.ar';                 // Usuario SMTP
     $mail->Password = 'LlgPgq@zK]s_';                           // Password SMTP
-    $mail->SMTPSecure = 'tls';                            // Activar seguridad TLS
-    $mail->Port = 587;                                    // Puerto SMTP
+    $mail->SMTPSecure = 'ssl';                            // Activar seguridad TLS
+    $mail->Port = 465;                                    // Puerto SMTP
 
     #$mail->SMTPOptions = ['ssl'=> ['allow_self_signed' => true]];  // Descomentar si el servidor SMTP tiene un certificado autofirmado
     #$mail->SMTPSecure = false;             // Descomentar si se requiere desactivar cifrado (se suele usar en conjunto con la siguiente línea)
