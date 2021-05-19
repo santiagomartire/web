@@ -7,7 +7,7 @@
 
   .imagenEscala {
     max-width: 70%;
-    max-height: auto; 
+    max-height: 70%; 
   
   }
 
@@ -43,7 +43,7 @@
 
         .imagenEscala {
           max-width: 70%;
-          max-height: auto;   
+          max-height: 70%;   
 }
     }
 // Medium devices (tablets, less than 992px)
@@ -54,7 +54,7 @@
         }
         .imagenEscala {
           max-width: 55%;
-          max-height: auto;             
+          max-height: 55%;             
 }
         h1{
           font-size: 4rem;
@@ -68,7 +68,7 @@
         }
        .imagenEscala {
           max-width: 45%; 
-          max-height: auto;     
+          max-height: 45%;     
         }
         h1{
           font-size: 4.5rem;
@@ -83,7 +83,7 @@
         }
        .imagenEscala {
           max-width: 40%;
-          max-height: auto;           
+          max-height: 40%;           
         }
         h1{
           font-size: 3.5rem;
