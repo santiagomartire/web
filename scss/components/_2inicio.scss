@@ -6,8 +6,9 @@
   }
 
   .imagenEscala {
-    max-width: 70%;
-    max-height: 70%; 
+    width: 80%;
+    max-width: 300px;
+    height: auto;
   
   }
 
@@ -42,8 +43,9 @@
 @media (min-width: 576px) and (max-width: 767.98px){
 
         .imagenEscala {
-          max-width: 70%;
-          max-height: 70%;   
+          width: 55%;
+          max-width: 320px;
+          height: auto;  
 }
     }
 // Medium devices (tablets, less than 992px)
@@ -53,8 +55,9 @@
           width: 12rem;         
         }
         .imagenEscala {
-          max-width: 55%;
-          max-height: 55%;             
+          width: 55%;
+          max-width: 320px;
+          height: auto;             
 }
         h1{
           font-size: 4rem;
@@ -67,8 +70,9 @@
           width: 12rem;         
         }
        .imagenEscala {
-          max-width: 45%; 
-          max-height: 45%;     
+          width: 55%;
+          max-width: 340px;
+          height: auto;     
         }
         h1{
           font-size: 4.5rem;
@@ -82,8 +86,9 @@
           width: 12rem;
         }
        .imagenEscala {
-          max-width: 40%;
-          max-height: 40%;           
+          width: 55%;
+          max-width: 360px;
+          height: auto;           
         }
         h1{
           font-size: 3.5rem;
