@@ -11,9 +11,11 @@
   /*TIPOGRAFIAS*/
 
   @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
 
   body {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Source Serif Pro', serif;
     color: #09101d;
   }
   a {
@@ -24,8 +26,10 @@
     }
 
   h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #52B748;
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.19;
     text-align: $tcentrado;
     font-style: normal;
@@ -37,6 +41,7 @@
   }
 
   h2 {
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 2.8rem;
     font-weight: 400;
     line-height: 1;
@@ -48,7 +53,8 @@
     margin-bottom: 1rem;
   }
   h3 {
-    font-weight: 200;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
     font-size: 2rem;
     line-height: 1,25;
     text-align: $tcentrado;
@@ -72,6 +78,7 @@
     margin-bottom: 1.6rem;
   }
   h5 {
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     font-size: 2rem;
     line-height: 1,25;
